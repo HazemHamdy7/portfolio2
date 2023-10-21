@@ -1,3 +1,11 @@
+let menuItem = decument.querySelector("#menu=icon");
+let navbar = decument.querySelector(".navbar");
+
+menuIcon.onclick = () => {
+  menuIcon.classList.toggle("bx-x");
+  navbar.classList.toggle("active");
+};
+
 let sections = decument.querySelectorAll("section");
 let navlinks = decument.querySelectorAll("header nav a");
 
